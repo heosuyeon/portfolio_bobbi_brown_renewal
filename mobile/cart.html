@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="keywords" content="바비브라운 리뉴얼 개인 포트폴리오">    
+    <meta name="description" content="바비브라운 리뉴얼 개인 포트폴리오 입니다">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>cart - BOBBIBROWN</title>
+    <!--favicon-->
+    <link rel="apple-touch-icon" sizes="57x57" href="images/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="images/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="images/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="images/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="images/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="images/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="images/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="images/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="images/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="images/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
+    <link rel="manifest" href="images/favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="images/favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <!-- Open graph -->
+    <meta property="og:title" content="바비브라운 리뉴얼 개인 포트폴리오"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:url" content="http://suyeon30.dothome.co.kr/bobby_brown_renewal"/>
+    <meta property="og:image" content="http://suyeon30.dothome.co.kr/bobby_brown_renewal/mobile/images/logo_fa.png"/>
+    <meta property="og:description" content="바비브라운 리뉴얼 개인 포트폴리오 입니다."/>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-91W7QT2H39"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-91W7QT2H39');
+    </script>
+    <!-- modernizr -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js" integrity="sha512-3n19xznO0ubPpSwYCRRBgHh63DrV+bdZfHK52b1esvId4GsfwStQNPJFjeQos2h3JwCmZl0/LgLxSKMAI55hgw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- jquery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>    
+    <!-- material icons -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+    <link rel="stylesheet" href="css/main.css">
+    <script src="js/main.js"></script>
+</head>
+<body>
+    <header>
+        <div class="container">      
+            <button class="sprite goback">뒤로가기</button> 
+            <h2 class="en_title en_small">shopping cart</h2>  
+        </div>
+    </header>
+    <main>    
+        <section class="cart_list container">
+            <h2 class="hidden">cart list</h2>
+            <div>
+                <input type="checkbox" id="all">
+                <label for="all">전체 상품 선택</label>
+            </div>
+            <ul>
+                <li>
+                    <div class="cart_box_top">
+                        <p>
+                            <input type="checkbox" id="check1" class="checked">
+                            <label for="check1">선택</label>
+                        </p>
+                       <button class="close_btn">닫기</button>
+                    </div>
+                    <div class="cart_box">
+                        <a href="detail.html">
+                            <img src="https://res.cloudinary.com/suyeon/image/upload/v1648822644/bobbibrown/mobile/list_04_0_0_shmspr.jpg" alt="Lux Eyeshadows image">
+                        </a>
+                        <div class="cart_desc">
+                            <h3>럭스 아이섀도우 <span>2.5g</span></h3>
+                            <div>
+                                <p class="unitprice price1" data-price="48000">48,000</p>             
+                                <span class="count_wrap">
+                                    <a href="#" class="minus"> - </a> 
+                                    <em class="amount amount1">1</em>
+                                    <a href="#" class="plus"> + </a>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="cart_box_top">
+                        <p>
+                            <input type="checkbox" id="check2" class="checked">
+                            <label for="check2">선택</label>
+                        </p>
+                       <button class="close_btn">닫기</button>
+                    </div>
+                    <div class="cart_box">
+                        <a href="detail.html">
+                            <img src="https://res.cloudinary.com/suyeon/image/upload/v1648822325/bobbibrown/mobile/list_01_o8asul.jpg" alt="Eyeshadow palette image">
+                        </a>
+                        <div class="cart_desc">
+                            <h3>코블스톤 래인 8구 아이섀도우 팔레트</h3>
+                            <div>
+                                <p class="unitprice price2" data-price="82000">82,000</p>             
+                                <span class="count_wrap">
+                                    <a href="#" class="minus"> - </a> 
+                                    <em class="amount amount2">1</em>
+                                    <a href="#" class="plus"> + </a>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </section>
+        <section class="estimate_wrap container">
+            <h2 class="hidden">estimate</h2> 
+            <div class="right thirty_fif_pd estimate">
+                <ul class="items">
+                    <li>
+                        <span class="product_name">럭스 아이섀도우 2.5g</span>    
+                        <span class="price copy_price1">48,000</span> 
+                    </li>
+                    <li>
+                        <span class="product_name">코블스톤 래인 8구 아이섀도우</span>
+                        <span class="price copy_price2">82,000</span>
+                    </li>
+                </ul>
+                <p>total : <span class="total">0</span></p>
+            </div>
+            <div class="buttons_wrap">
+                <a href="" class="btn">구매하기</a>
+                <a href="index.html" class="btn">쇼핑하러 가기</a>
+            </div>
+        </section>
+        <section class="thirty_fif_pd">
+            <h2>바비브라운 공식몰 단독 혜택</h2>
+            <ul>
+                <li>혜택1. 전 구매 무료 배송</li>
+                <li>혜택2. 공식몰 가입 후 첫 구매 고객 15% 할인 코드 발송</li>
+            </ul>
+            <a href="">자세히 보기</a>   
+        </section>
+        <section class="thirty_fif_pd">
+            <h2>고객센터</h2>
+            <p>
+                바비 브라운 고객관리지원팀 운영 안내 :
+                현재 고객관리지원팀 전화연결이 어렵습니다.
+                [이메일 문의] 서비스로 문의주시면
+                응대 도와드리겠습니다.
+                이용에 불편을 드려 대단히 죄송합니다.
+                *배송 안내*
+                주문하신 제품은 결제 완료된 시점으로부터
+                영업일 기준 3일 정도 소요됩니다.
+                출고되는 제품은 CJ대한통운이 아닌
+                우체국택배를 통해 발송이 되며,
+                우체국 택배 배송조회 시스템을 통하여 배송조회가
+                가능하오니 이용에 참고하여 주시기를 바랍니다.
+                * 노출되는 증정품 가격은 최종 ‘0’원으로 적용되며,
+                총 주문금액은 주문 요약의 [총 합계] 금액에서
+                확인 부탁 드립니다.
+            </p>
+        </section>
+        <button class="go_top"><span class="material-icons">north</span></button>
+    </main>
+    <footer>
+        <div class="container">
+            <ul>
+                <li><a href="">로그인/회원가입</a></li>
+                <li><a href="">프로필</a></li>
+                <li><a href="">주문내역</a></li>
+                <li><a href="">주문조회</a></li>
+                <li><a href="">메이크업 레슨 예약하기</a></li>
+                <li><a href="">매장찾기</a></li>
+            </ul>    
+            <ul>
+                <li><a href="">고객문의</a></li>
+                <li><a href="">이메일문의하기</a></li>
+                <li><a href="">이용약관</a></li>
+                <li><a href="">채용안내</a></li>
+                <li><a href="">에스크로가입확인</a></li>
+                <li><a href="">개인정보처리방침</a></li>
+            </ul>
+        </div>
+        <hr>
+        <p>BOBBIBROWN SNS 바로가기</p>
+        <ul class="shortcut_sns">
+            <li><a href="" class="sprite facebook">facebook</a></li>
+            <li><a href="" class="sprite pinterest">pinterest</a></li>
+            <li><a href="" class="sprite instagram">instagram</a></li>
+            <li><a href="" class="sprite blog">blog</a></li>
+            <li><a href="" class="sprite youtube">youtube</a></li>
+        </ul>
+        <address class="container">
+            <p>
+                이엘씨한국(유) 대표 Teng, Hsiao-Hua (Catherine)
+                서울시 강남구 강남대로 382 (역삼동) 메리츠타워, 06232
+                사업자등록번호:211-81-71889
+                통신판매업신고번호 : 강남-15737호 <a href="">사업자정보조회</a> 
+                고객관리지원팀: <a href="mailto:consumercare@kr.bobbibrown.com">consumercare@kr.bobbibrown.com</a>
+                &copy;Bobbi Brown Professional
+                Cosmetics Inc. ALL RUGHTS RESERVED
+                호스팅서비스 사업자:(주)엘지유플러스
+            </p>
+        </address>
+    </footer>
+</body>
+</html>
