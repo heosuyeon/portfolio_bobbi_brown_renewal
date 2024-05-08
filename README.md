@@ -28,10 +28,3 @@
 |[modernizr](https://modernizr.com/)|2.8.3|
 |[fontawesome](https://fontawesome.com/)|6.0.0|
 |[swiperjs](https://swiperjs.com/)|7.0.0|
-
-## 구현 완료 페이지
-* [메인화면](https://heosuyeon.github.io/portfolio_bobbi_brown_renewal/)
-* [제품 목록](https://heosuyeon.github.io/portfolio_bobbi_brown_renewal/list.html)
-* [제품 상세](https://heosuyeon.github.io/portfolio_bobbi_brown_renewal/detail.html)
-* [장바구니](https://heosuyeon.github.io/portfolio_bobbi_brown_renewal/cart.html)
-* [로그인](https://heosuyeon.github.io/portfolio_bobbi_brown_renewal/login.html)
